@@ -39,6 +39,7 @@ int main(){
       cin>>cost[i][j];
   cout<<"Enter the starting city : ";
   cin>>start;
+  start--;
   
   vector<int > visited(n,0);
   tour(n,cost,visited,start,start);
